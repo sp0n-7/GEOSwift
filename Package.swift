@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "GEOSwift", targets: ["GEOSwift"])
     ],
     dependencies: [
-        .package(url: "https://github.com/GEOSwift/geos.git", from: "9.0.0")
+        .package(url: "https://github.com/sp0n-7/geos.git", from: "9.0.0")
     ],
     targets: [
         .target(
